@@ -1,0 +1,29 @@
+/* -- Inview Effects -- */
+.inviewElement {
+  opacity: 0;
+
+  -webkit-transition: -webkit-transform 500ms 150ms ease, opacity 500ms 150ms ease;
+  -moz-transition: -moz-transform 500ms 150ms ease, opacity 500ms 150ms ease;
+  -ms-transition: -ms-transform 500ms 150ms ease, opacity 500ms 150ms ease;
+  -o-transition: -o-transform 500ms 150ms ease, opacity 500ms 150ms ease;
+  transition: transform 500ms 150ms ease, opacity 500ms 150ms ease;
+}
+
+/* Bottom to Top */
+.bottomToTop {
+  -webkit-transform: translateY(25px);
+  -moz-transform: translateY(25px);
+  -ms-transform: translateY(25px);
+  -o-transform: translateY(25px);
+  transform: translateY(25px);
+}
+
+.viewed {
+  opacity: 1;
+
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}

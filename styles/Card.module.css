@@ -1,0 +1,47 @@
+.image {
+  margin-bottom: 45px;
+}
+
+.title {
+  color: #384c48;
+  font-family: "RecifeDisplayLight", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.title2 {
+  color: #384c48;
+  font-family: "RecifeDisplayLight", sans-serif;
+  font-size: 40px;
+  margin-bottom: 23px;
+}
+
+.text {
+  color: #5d5d5d;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .image img {
+    transition: transform 750ms;
+  }
+
+  .card:hover .image img {
+    transform: scale(1.1);
+  }
+
+  .title {
+    font-size: 22px;
+    text-align: initial;
+  }
+
+  .title2 {
+    margin-bottom: 34px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}

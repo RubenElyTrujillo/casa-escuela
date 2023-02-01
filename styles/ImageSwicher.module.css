@@ -1,0 +1,45 @@
+.imageSwicher,
+.wrapper {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  transform: scale(1.05);
+  width: 100%;
+}
+
+.image.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.clickText {
+  font-size: 10px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.imageCaption {
+  color: #000;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .imageCaption {
+    font-size: 14px;
+  }
+}
